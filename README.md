@@ -2,6 +2,20 @@
 
 This repo collects awesome voice prompts for making voice agents. You can also use the Meta Voice Agent to help create high-quality voice prompt.
 
+## 2026 Voice Model Landscape
+
+> Added 2026-08. The prompt templates below target the *system prompt* of a speech-to-speech model; here is what you would plug them into today. For the full stack (STT / TTS / VAD / frameworks) see [awesome-voice-agents](https://github.com/yzfly/awesome-voice-agents).
+
+| Model | Developer | Link | Notes |
+|---|---|---|---|
+| gpt-realtime-2 / 2.1 / 2.1-mini · GPT-Live | OpenAI | [announcement](https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/) · [GPT-Live](https://openai.com/index/introducing-gpt-live/) | Realtime API speech-to-speech; 128K context, parallel tool calls; GPT-Live is full-duplex (listens while speaking) |
+| Gemini 3.1 Flash Live · 3.5 Live Translate | Google | [3.1 Flash Live](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/) · [Live API](https://aistudio.google.com/live-api) | Native-audio realtime agents; 70+ language speech-to-speech translation |
+| Qwen3-Omni · Qwen3.5-Omni | Alibaba | [GitHub](https://github.com/QwenLM/Qwen3-Omni) | Open-weight end-to-end omni model, real-time streaming speech out |
+| Qwen3-TTS · Qwen3-ASR | Alibaba | [TTS](https://github.com/QwenLM/Qwen3-TTS) · [ASR](https://github.com/QwenLM/Qwen3-ASR) | Open TTS / ASR pair; [faster-qwen3-tts](https://github.com/andimarafioti/faster-qwen3-tts) for realtime |
+| MOSS-TTS | OpenMOSS | [GitHub](https://github.com/OpenMOSS/MOSS-TTS) | Open speech & sound generation family (Apache-2.0) |
+| VoiceStudio | community | [GitHub](https://github.com/debpalash/VoiceStudio) | Fully-local open ElevenLabs alternative: cloning, voice design, dubbing |
+| qwen-audio-agent | QwenAudio | [GitHub](https://github.com/QwenAudio/qwen-audio-agent) | Realtime full-duplex voice runtime for coding agents (talk to Claude Code / Codex over ACP) |
+
 ## Meta Voice Agent
 
 This OpenAI GPTs help you create high-quality Voice Agent Prompt. Click below to start using:
